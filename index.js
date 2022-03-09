@@ -10,7 +10,7 @@ const log = new ASCIIColorLog();
 
 
 const app = express()
-const PORT = 2324
+const PORT =  process.env.PORT || 1010
 app.use(cors())
 
 
