@@ -1,10 +1,12 @@
 /* Grupo gerson de melo servidor */
 
-import express from 'express'
-import cors from 'cors'
-import fs from 'fs-extra'
-import ip from 'ip'
-import ASCIIColorLog from 'ascii-color-log'
+// import express from 'express'
+const cors =  require('cors')
+const fs = require('fs-extra')
+const ip = require('ip')
+const ASCIIColorLog = require('ascii-color-log')
+const express = require("express")
+
 
 const log = new ASCIIColorLog();
 
